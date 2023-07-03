@@ -2,12 +2,13 @@ import React from 'react'
 import './HomePage.css'
 import Header from '../../Components/Header/Header'
 import QATemp from '../../Components/QATemp/QATemp'
+import Footer from '../../Components/Footer/Footer'
 
 function HomePage() {
   return (
     <>
       <Header/>
-      <section className='main--content'>
+      <section className='main--content wrap'>
         <div className='header--content'>
           <div className='button'>برای سابسکرایب استریمر مورد نظرت اینجا کلیک کن!</div>
         </div>
@@ -18,6 +19,7 @@ function HomePage() {
           <QATemp Question="چگونه می توانم با پشتیبانی در ارتباط باشم؟" Answer="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد کتابهای زیادی در شصت و سه درصد گذشته حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد"/>
         </div>
       </section>
+      <Footer/>
     </>
   )
 }

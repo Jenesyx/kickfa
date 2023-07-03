@@ -1,0 +1,11 @@
+.Footer {
+    background-image: url('../../Images/Footer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 555px;
+    position: relative;
+    bottom: 0;
+    margin-top: 200px;
+}

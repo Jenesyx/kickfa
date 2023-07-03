@@ -5,13 +5,13 @@ import './Header.css'
 function Header() {
   return (
     <>
-        <nav>
+        <nav className='wrap'>
             <header>
                 <div className="right--side">
                     <ul>
-                        <li>صفحه اصلی</li>
-                        <li>حریم خصوصی</li>
-                        <li>تماس با ما</li>
+                        <li><a href="@">صفحه اصلی</a></li>
+                        <li><a href="@">حریم خصوصی</a></li>
+                        <li><a href="@">تماس با ما</a></li>
                     </ul>
                 </div>
                 <div className='left--side'>

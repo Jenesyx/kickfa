@@ -1,0 +1,26 @@
+.qa--holder {
+    margin-top: 50px;
+}
+
+.qa--holder .question {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.qa--holder .question img {
+    width: 2.5%;
+    height: 2.5%;
+}
+
+.qa--holder h2 {
+    margin-right: 15px;
+    font-family: Estedad-Bold;
+    font-size: 18px;
+}
+
+.qa--holder p {
+    font-family: Estedad-Light;
+    text-align: right;
+    margin-top: 15px;
+}

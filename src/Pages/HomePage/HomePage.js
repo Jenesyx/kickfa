@@ -3,12 +3,14 @@ import './HomePage.css'
 import Header from '../../Components/Header/Header'
 import QATemp from '../../Components/QATemp/QATemp'
 import Footer from '../../Components/Footer/Footer'
+import Payout from '../../Components/PayoutPopUp/Payout'
 
 function HomePage() {
   return (
     <>
       <Header/>
       <section className='main--content wrap'>
+        <Payout/>
         <div className='header--content'>
           <div className='button'>برای سابسکرایب استریمر مورد نظرت اینجا کلیک کن!</div>
         </div>

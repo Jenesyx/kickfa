@@ -1,0 +1,25 @@
+.popup-holder {
+    position: absolute;
+    width: 100%;
+}
+
+.popup {
+    margin: auto;
+    width: 80%;
+    height: 450px;
+    display: flex;
+    color: #fff;
+    background-color: #1B4332;
+    border: 1px solid #EEEEF4;
+    border-radius: 25px;
+    box-shadow: 4px 4px 20px 1px rgba(0,0,0, 0.45);
+}
+
+.popup .inputs {
+    width: 50%;
+    display: block;
+}
+
+.popup .info--payout {
+    width: 50%;
+}

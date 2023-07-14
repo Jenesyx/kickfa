@@ -61,3 +61,14 @@ li > a:after,
 li > a:hover::after {
 transform: scaleX(1);
 }
+
+.left--side {
+    width: 80px;
+    height: 80px;
+    margin-top: -20px;
+}
+
+.left--side img {
+    width: 100%;
+    filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.5));
+}

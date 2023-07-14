@@ -1,25 +1,137 @@
 .popup-holder {
     position: absolute;
     width: 100%;
+    top: 20%;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+}
+
+.popup-holder.hidden {
+    visibility: visible;
+    opacity: 1;
 }
 
 .popup {
+    padding: 45px 70px;
     margin: auto;
     width: 80%;
     height: 450px;
     display: flex;
     color: #fff;
-    background-color: #1B4332;
+    background-color: #3D4B43;
     border: 1px solid #EEEEF4;
     border-radius: 25px;
     box-shadow: 4px 4px 20px 1px rgba(0,0,0, 0.45);
 }
 
-.popup .inputs {
-    width: 50%;
-    display: block;
+.inputs--title {
+    width: 60%;
+    text-align: right;
 }
 
-.popup .info--payout {
-    width: 50%;
+.inputs--title h3 {
+    font-family: Estedad-Bold;
+    font-size: 17px;
+}
+
+.inputs--title input {
+    width: 70%;
+    height: 35px;
+    padding: 5px 15px;
+    color: #fff;
+    font-family: Estedad-Regular;
+    font-size: 12px;
+    background: transparent;
+    margin-top: 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    outline: none;
+}
+
+.inputs--title .inputs {
+    margin-top: 20px;
+}
+
+.info--payout {
+    width: 45%;
+}
+
+.popup-info {
+    margin-top: 65px;
+}
+
+.popup-info ul {
+    text-align: right;
+    font-family: Estedad-Regular;
+    font-size: 13px;
+}
+
+.popup-info ul li {
+    margin-top: 10px;
+}
+
+.popup-payout {
+    margin-top: 130px;
+}
+
+.popup-payout h4 {
+    font-family: Estedad-Light;
+    font-size: 13px;
+    text-align: left;
+}
+
+.popup-payout span {
+    margin: 0 6px 0 3px;
+}
+
+.popup-payout .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.popup-payout .buttons div {
+    width: 45%;
+    height: 37px;
+    border-radius: 5px;
+    color: #EEEEF4;
+    line-height: 34px;
+    font-family: Estedad-Bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.popup-payout .buttons .close-Btn {
+    width: 35%;
+    background: transparent;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.popup-payout .buttons .buy-Btn {
+    width: 60%;
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #000;
+    transition: all 0.3s ease-in-out;
+}
+
+.popup-payout .buttons .buy-Btn:hover {
+    color: #fff;
+    border: 1px solid #6EFF62;
+    box-shadow: 0px 0px 20px 1px rgba(111, 255, 98, 0.258);
+    background: transparent;
+}
+
+.popup-payout .buttons .close-Btn.active {
+    width: 55%;
+    background-color: #FF6666;
+    border: 1px solid #FF6666;
+}
+
+.popup-payout .buttons .buy-Btn.active {
+    width: 40%;
+    border: 1px solid #fff;
+    box-shadow: 2px 2px 15px 1px rgba(0,0,0, 0.2);
 }
